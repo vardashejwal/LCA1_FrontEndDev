@@ -1,0 +1,409 @@
+
+
+body {
+    background-color: #fef8ea;
+    align-items: center;
+}
+
+@media screen and (max-width : 767px) 
+{
+    body {
+        background-color: #ffffff;
+    }
+}
+
+
+#indiaimg1 {
+    float: right;
+}
+
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px;
+        min-width: 400px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+.content-table thead tr {
+    background-color: #164b41;
+    color: #a5c8bb;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th {
+    padding: 12px 15px;
+    border: solid 2px black
+}
+
+.content-table td {
+    padding: 12px 15px;
+    border: solid 2px black; 
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #abc8c2
+}
+
+.content-table tbody td:nth-of-type(even) {
+    background-color: #a5c8bb
+    }
+
+ aside {
+        color: #164b41;
+        max-width: 200px;
+        background-color: #accdb1;
+        float: right;
+        padding:15px;
+        margin: 15px;
+        border-radius: 15px;
+
+}
+.monument {
+    background-color: #47344c;
+    color: #bacee6;
+    padding: 15px;
+    border-radius: 25px;
+    justify-items: center ;
+    
+}
+
+.unesco {
+    background-color: #bacee6;
+    padding: 25px;
+   border-radius: 35px ;
+   max-width: 500px;
+   justify-self: center;
+}
+
+.header {
+    background-color: #bbc6d8;
+    padding: 10px;
+    position: fixed;
+    border-radius: 40px;
+}
+
+fieldset {
+    border-radius: 10px;
+    background-color:#bacee6;
+    max-width: 300px;
+}
+
+legend {
+    background-color: #5f7897;
+    color: #ffffff;
+    border: solid 10px #5f7897;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#submitbutton {
+    background-color: #164b41;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 5px;
+    color: #a5c8bb;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+    button:hover {
+    background-color: #47344c;
+    color: #bbc6d8;
+    font-size: 1.1em;
+    border-radius: 20px;
+    }
+
+    button:active {
+    background-color: #bc3a3a;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-radius: 20px;
+    }
+
+    a:link {
+    color: #8bb0dd;
+    ;
+    }
+
+    a:hover {
+    color: #164b41;
+    }
+
+    a:active {
+    color: #d32828;
+    }
+
+    a:visited {
+    color: #816c27;
+    }
+
+    .sevensis:hover {
+        background: #164b41;
+        color: white;
+    }
+
+    .sevensis:not(:hover) {
+        background: #aecafa;
+        color: rgb(0, 0, 0);
+    }
+
+    #greeting p {
+        background-color: #973838;
+        color: white;
+        left : 10Px;
+        padding: 10px;
+        display : none; 
+        align-self: center;
+    }
+
+#greeting:hover p {
+    display : block
+}
+
+
+#random1 {
+    position: relative;
+    width: max-content;
+}
+
+#random1:hover::after {
+content:'';
+height:3px;
+width: 100%;
+background: linear-gradient(to right, red, blue);
+position : absolute;
+bottom : 0;
+left: 0;
+border-radius: 6px ;
+}
+
+.box {
+                transform: translateX(100px) rotateZ(45deg) scale(0.5)
+            }
+         
+            #box1 {
+                width: 250px;
+                height: 250px;
+                border: 5px solid black ;
+                font-size: 4em;
+                text-align: center;
+                background-color: rgb(165, 165, 243);
+            }
+
+            #box2 {
+                width: 250px;
+                height: 250px;
+                border: 5px solid black ;
+                font-size: 4em;
+                text-align: center;
+                background-color: rgb(148, 205, 159);
+            }
+
+            #box3 {
+                width: 250px;
+                height: 250px;
+                border: 5px solid black ;
+                font-size: 4em;
+                text-align: center;
+                background-color: rgb(243, 165, 165);
+            }
+
+            #bharat {
+                width: 100px;
+                height: 100px;
+                background: brown;
+                text-align:center;
+                align-content: center;
+                color: white;
+                margin: auto;
+                transition-property: all;
+                transition-delay: 0.5s ;
+                transition-duration: 1.5s;
+                transition-timing-function: ease-in;
+            }
+
+            #bharat:hover {
+                width: 250px;
+                height: 250px;
+                background-color: #1e1956;
+                /* background: linear-gradient(to right, red, rgb(0, 64, 255)); */
+                border-radius: 50%;
+                font-size: 3em;
+                
+            }
+
+            #incIndia {
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 100px;
+                height: 100px;
+                background: rgb(64, 99, 91);
+                text-align:center;
+                align-content: center;
+                color: white;
+                margin: auto;
+                animation-name: incredible ;
+                animation-duration: 4s;
+                animation-timing-function: ease-out;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                /* animation-fill-mode: forwards; */
+                animation-play-state: paused;
+            }
+
+            #incIndia:hover {
+                animation-play-state: running;
+            }
+
+            @keyframes incredible {
+
+                0% {
+
+                }
+
+                50% {
+                    scale: 2;
+                    transform: rotate(0);
+                    border-radius: 0;
+
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                    border-radius: 50%;
+                    scale: 2;
+                }
+
+            }
+
+
+            #loading {
+                border: 5px #1e1956 solid;
+                border-radius: 4px;
+                height: 30px;
+                width: 30px;
+                margin: auto;
+                
+
+                animation-name: loading;
+                animation-duration: 2s; 
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite ;
+
+            }
+
+            @keyframes loading {
+
+                0% {
+                    transform: rotateX(0) rotateY(0) rotateZ(0)
+                }
+
+                33% {
+                    transform: rotateX(180deg) rotateY(0) rotateZ(0)
+                }
+
+                67% {
+                    transform: rotateX(180deg) rotateY(180deg) rotateZ(0)
+                }
+
+                100% {
+                    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg)
+
+            }
+        }
+
+        .container1 {
+            border: 5px solid;
+            min-height: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            
+        }
+    
+    
+    .item {
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        border: 4px solid rgb(21, 78, 52);
+        width: 200px;
+        height: 200px;
+        background-color: rgb(168, 196, 185);
+        }
+
+        .factsindia {
+            background-color: #47344c;
+            border: #9e88a4 solid 5px;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+
+        .oneliner {
+            display: grid;
+            grid-template-rows: repeat(6 ,100px) ;
+            grid-template-columns: repeat(6, 100px);
+        }
+
+        .fact1 {
+            grid-row: 1 / 3 ;
+            grid-column: 1 / 4 ;
+            z-index: 1;
+        }
+
+        .fact2 {
+            grid-row: 2 / 5 ;
+            grid-column: 3 / 7 ;
+        }
+
+        .fact3 {
+            grid-row: 4 / 7 ;
+            grid-column: 2 / 6 ;
+        }
+
+
+        #aesthetic {
+            width: 100px;
+            height: 100px;
+            border: #1e1956 solid 3px;
+            border-radius: 10%;
+            background: linear-gradient(to left, rgb(47, 93, 47), rgb(55, 55, 102));
+            animation-name: gradient;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+            animation-play-state: running;
+        }
+
+        #aesthetic:hover {
+            animation-play-state: paused;
+        }
+
+    
+
+        @keyframes gradient {
+
+            0% {
+                
+            }
+
+            50% {
+                scale: 2; transform: translateX(100px);
+            }
+
+            100% {
+                scale: 2; rotateZ:45deg ; transform: translateX(100px);
+            }
+        }
